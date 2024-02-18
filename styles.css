@@ -1,11 +1,18 @@
 /* add your CSS here */
 
+
+:root{
+    background-color: white;
+}
+
 .container 
 {
-    width: 500px;
-    height:900px;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    max-width: 600px;
+    max-height:900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4% auto ;
     border: 2px solid rgb(68, 52, 23);
     background-color: rgb(207, 205, 198) ;
     box-shadow: 10px 10px 5px rgb(24, 22, 22);
@@ -27,8 +34,8 @@ li{
     list-style: none;
 }
 .box {
-    width: 400px;
-    height: 310px;
+    max-width: 65%;
+    min-height: 45%;
     text-align:left;
     border: 2px dashed rgb(83, 78, 78);
     margin: 1em;
@@ -45,8 +52,8 @@ img {
     margin-top: none;
     margin-left: auto;
     margin-right: auto;
-    width: 390px;
-  	height: 310px
+    max-width: 65%;
+  	max-height: 100%
 }
 
 h3 {
@@ -56,10 +63,10 @@ h3 {
 
 .signaturebox{
     font-size: small;
-    width: 250px;
+    max-width: 250px;
     height: 20px;
     text-align:left;
-    margin: .5em;
+    margin: .1em 0em 0em 22em;
     padding:.5em;
     float: right;
     margin-top: 80px;
